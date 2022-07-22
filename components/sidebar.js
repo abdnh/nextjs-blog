@@ -5,23 +5,25 @@ const Sidebar = () => {
   return (
     <div id="sidebar">
       <Link href="/">
-        <Image
-          src="/favicon.ico"
-          id="logo"
-          alt="شعار المدونة؛ فضولي"
-          width="64"
-          height="64"
-        />
+        <a>
+          <Image
+            src="/favicon.ico"
+            id="logo"
+            alt="شعار المدونة؛ فضولي"
+            width="64"
+            height="64"
+          />
+        </a>
       </Link>
       <ul id="nav-links">
         <li>
           <Link id="about" href="/posts/about">
-            حول
+            <a>حول</a>
           </Link>
         </li>
         <li>
           <Link id="projects" href="/posts/projects">
-            مشاريع
+            <a>مشاريع</a>
           </Link>
         </li>
         <li>
