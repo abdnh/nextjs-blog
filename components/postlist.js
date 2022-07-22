@@ -11,8 +11,8 @@ const PostList = ({ posts }) => {
                     }
                     return (
                         // FIXME: set href
-                        <li key={post.id}><time dateTime={post.formattedDate}>{post.formattedDate}</time> » <a
-                            href={`posts/${post.id}`}>{ title }</a></li>
+                        <li key={post.id}><time dateTime={post.formattedDate}>{post.formattedDate}</time> » <Link
+                            href={`posts/${post.id}`}>{ title }</Link></li>
                     )
                 })
             }
