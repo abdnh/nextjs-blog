@@ -21,17 +21,17 @@ const Sidebar = () => {
       </Link>
       <ul id="nav-links">
         <li>
-          <Link id="about" href="/about">
+          <Link id="about" href="/posts/about">
             حول
           </Link>
         </li>
         <li>
-          <Link id="projects" href="/projects">
+          <Link id="projects" href="/posts/projects">
             مشاريع
           </Link>
         </li>
         <li>
-          <a id="wiki" href="/curious/">
+          <a id="wiki" href="https://www.abdnh.net/curious/">
             ويكي
           </a>
         </li>
