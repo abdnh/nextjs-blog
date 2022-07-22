@@ -2,11 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Sidebar = () => {
-  function faviconTransitionEndHandler(event) {
-    if (event.elapsedTime >= 5) {
-      window.location.assign("/fuduuli");
-    }
-  }
   return (
     <div id="sidebar">
       <Link href="/">
@@ -16,7 +11,6 @@ const Sidebar = () => {
           alt="شعار المدونة؛ فضولي"
           width="64"
           height="64"
-          onTransitionEnd={faviconTransitionEndHandler}
         />
       </Link>
       <ul id="nav-links">
