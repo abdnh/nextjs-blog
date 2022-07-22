@@ -73,9 +73,7 @@ mpv --vo=sixel --profile=sw-fast --really-quiet anime.mp4 --vo-sixel-width=800 -
 {% endhighlight %}
 - استمتع بمشاهدة الأنمي!
 
-{% include_cached image.html file="mlterm-linux.png"
-   caption="مشاهدة الأنمي من سطر الأوامر في لينكس"
-%}
+:img{src="mlterm-linux.png" caption="مشاهدة الأنمي من سطر الأوامر في لينكس"}
 
 ## التنصيب على ويندوز
 
@@ -103,9 +101,7 @@ mpv --vo=sixel --profile=sw-fast --really-quiet anime.mp4
 mpv --vo=sixel --aid=2 --sid=3 anime.mp4
 {% endhighlight %}
 
-{% include_cached image.html file="mlterm-windows.png"
-   caption="مشاهدة الأنمي من سطر الأوامر في ويندوز"
-%}
+:img{src="mlterm-windows.png" caption="مشاهدة الأنمي من سطر الأوامر في ويندوز"}
 
 
 ## خاتمة

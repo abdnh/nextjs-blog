@@ -10,7 +10,6 @@ const PostList = ({ posts }) => {
                         title = `كتاب: ${title}`;
                     }
                     return (
-                        // FIXME: set href
                         <li key={post.id}><time dateTime={post.formattedDate}>{post.formattedDate}</time> » <Link
                             href={`posts/${post.id}`}>{ title }</Link></li>
                     )

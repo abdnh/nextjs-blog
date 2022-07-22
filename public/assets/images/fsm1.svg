@@ -1,0 +1,40 @@
+<svg width="177pt" height="55pt" viewBox="0.00 0.00 177.30 55.24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 1170px;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 51.2411)">
+<title>finite_state_machine</title>
+<polygon fill="#FFF8E7" stroke="transparent" points="-4,4 -4,-51.2411 173.2969,-51.2411 173.2969,4 -4,4"></polygon>
+<!-- s1 -->
+<g id="node1" class="node">
+<title>s1</title>
+
+
+<ellipse fill="none" stroke="#000000" cx="145.6763" cy="-23.6206" rx="19.7212" ry="19.7212" class="inactiveStates"></ellipse><text text-anchor="middle" x="145.6763" y="-19.4206" font-family="Times,serif" font-size="14.00" fill="#000000">s1</text>
+</g>
+<!-- secret_node -->
+<!-- s0 -->
+<g id="node3" class="node">
+<title>s0</title>
+<ellipse fill="none" stroke="#000000" cx="60.2206" cy="-23.6206" rx="19.7419" ry="19.7419" class="currentState"></ellipse>
+<text text-anchor="middle" x="60.2206" y="-19.4206" font-family="Times,serif" font-size="14.00" fill="#000000">s0</text>
+</g>
+<!-- secret_node&#45;&gt;s0 -->
+<g id="edge1" class="edge">
+<title>secret_node-&gt;s0</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M3.7438,-23.6206C8.1093,-23.6206 19.1896,-23.6206 30.3912,-23.6206"></path>
+<polygon fill="#000000" stroke="#000000" stroke-width="2" points="30.5235,-27.1207 40.5235,-23.6206 30.5234,-20.1207 30.5235,-27.1207"></polygon>
+</g>
+<!-- s0&#45;&gt;s1 -->
+<g id="edge2" class="edge">
+<title>s0-&gt;s1</title>
+<path fill="none" stroke="#000000" d="M80.0406,-23.6206C89.5312,-23.6206 101.1625,-23.6206 111.9836,-23.6206"></path>
+<polygon fill="#000000" stroke="#000000" points="112.014,-27.1207 122.0139,-23.6206 112.0139,-20.1207 112.014,-27.1207"></polygon>
+<text text-anchor="middle" x="100.9484" y="-27.8206" font-family="Times,serif" font-size="14.00" fill="#000000">a</text>
+</g>
+<!-- s0&#45;&gt;s1 -->
+<g id="edge3" class="edge">
+<title>s0-&gt;s1</title>
+<path fill="none" stroke="#000000" d="M85.297,-7.5304C89.3538,-5.5899 93.6137,-3.9114 97.8411,-2.8206 107.662,-.2864 118.0456,-3.9509 126.6197,-8.8753"></path>
+<polygon fill="#000000" stroke="#000000" points="83.4482,-4.551 76.3107,-12.3809 86.7731,-10.7109 83.4482,-4.551"></polygon>
+<text text-anchor="middle" x="100.9484" y="-7.8206" font-family="Times,serif" font-size="14.00" fill="#000000">a</text>
+</g>
+</g>
+</svg>
