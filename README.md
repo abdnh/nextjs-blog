@@ -1,3 +1,9 @@
+A reimplementation of my [Jekyll blog](https://github.com/abdnh/abdnh.github.io/) in Next.js
+
+I made this to learn React and Next.js.
+
+----------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
