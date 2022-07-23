@@ -47,10 +47,10 @@ const Post = ({ post }) => {
                     }
                     <div>
                         <div>
-                            <time dateTime={post.formattedDate} title="تاريخ الإنشاء">{post.formattedDate}</time>
-                            {/* TODO: add repo link and path */}
+                            <time dateTime={post.date} title="تاريخ الإنشاء">{post.date}</time>
+                            |
                             {post.lastModified != post.date &&
-                                <a href="{ site.repo_url }/commits/master/{ post.path }"><time dateTime={post.formattedLastModified} title="آخر تعديل">{post.formattedLastModified}</time></a>
+                                <a href={`https://github.com/abdnh/nextjs-blog/commits/master/posts/${post.id}.md`}><time dateTime={post.lastModified} title="آخر تعديل">{post.lastModified}</time></a>
                             }
                         </div>
                         <div id="tags">
