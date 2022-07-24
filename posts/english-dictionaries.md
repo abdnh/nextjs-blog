@@ -113,7 +113,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 نقطة بارزة أيضا في الجمل التي يوفرها القاموس هي أن الكلمة المعنية في هذه الجمل مكتوبة بخط غامق
 مع الكلمات وحروف الجر التي تأتي معها عادة لجذب انتباهك إلى استخدام الكلمة المعتاد.
 
-![جمل نموذجية في قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-examples.png){:width="600px"}
+![جمل نموذجية في قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-examples.png){:width="600px"}
 
 #### قوائم الكلمات الأكثر تكرارًا
 
@@ -125,7 +125,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 
 يظهر القاموس رموز في صفحة كل كلمة موجودة في أحد هذه القوائم لتنبيه القارئ على أهميتها، كما يظهر في الصورة التالية:
 
-![مؤشرات قوائم الكلمات في صفحات قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-wordlists-1.png){:width="600px"}
+![مؤشرات قوائم الكلمات في صفحات قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-wordlists-1.png){:width="600px"}
 
 قوائم الكلمات الشائعة مفيدة لأنها توضح لك ما يجب أن تعطيه الأولوية في التعلم،
 وتضاعف سرعة تقدمك في فهم اللغة، فالكلمات ال5000 الأكثر شيوعًا مثلًا تمنحك القدرة على فهم
@@ -137,7 +137,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 حيث يوفر تسجيلات نطق لكل من اللهجتين البريطانية والأمريكية الشمالية.
 بالإضافة إلى تسجيلات منفصلة لنطق الأفعال المصرفة غير الشاذة والشاذة منها، وهذا ما لم ألحظه في أي قاموس آخر،
 وأظن أنه مفيد لأن بعض الأفعال قد لا تكون طريقة نطقها واضحة حتى عندما تضاف إليها لاحقات مثل ed خصوصًا للمبتدئين مثلي.
-![تسجيلات صوتية متعددة لطريقة نطق الكلمات في قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-pronunciations.png){:width="600px"}
+![تسجيلات صوتية متعددة لطريقة نطق الكلمات في قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-pronunciations.png){:width="600px"}
 
 ككل القواميس المحترمة أيضًا، هناك طرق النطق بالأبجدية الصوتية الدولية ([International Phonetic Alphabet](https://ar.wikipedia.org/wiki/%D8%A3%D9%84%D9%81%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9_%D8%B5%D9%88%D8%AA%D9%8A%D8%A9_%D8%AF%D9%88%D9%84%D9%8A%D8%A9))،
 وهي أبجدية مخصصة لتمثيل أصوات اللغة بطريقة متناسقة لا لبس فيها (/leɪ/ في الصورة في الأعلى كمثال).
@@ -152,7 +152,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 إذا كانت هذه الكلمة ملموسة ويمكن التعبير عنها بصورة ببساطة.
 كما تقول العبارة الشهيرة: a picture is worth a thousand words.
 
-![صورة توضيحية لجسم الإنسان مع أسماء الأعضاء المشهورة في قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-body.png){:width="600px"}
+![صورة توضيحية لجسم الإنسان مع أسماء الأعضاء المشهورة في قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-body.png){:width="600px"}
 
 #### ملاحظات جانبية حول استخدام الكلمات
 
@@ -169,7 +169,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 توضيحية في صفحات هذه الكلمات المستعصية أمر مفيد طبعًا لمتعلمي اللغة،
 وقاموس أكسفورد للمتعلمين يعج بهذه الشروحات.
 
-![توضيح الفروقات بين الكلمات التي يظن أنها متضادة في قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-non-opposites.png){:width="600px"}
+![توضيح الفروقات بين الكلمات التي يظن أنها متضادة في قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-non-opposites.png){:width="600px"}
 
 نقطة أخرى هي الكلمات المترادفة أو ذات المعاني المتقاربة جدًا. مع أن القواميس الجيدة
 تعطي فكرة مختصرة عن سياقات استخدام المترادفات في التعاريف، أو كلمات جانبية مفتاحية مثل formal و informal و vulgar
@@ -178,7 +178,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 وهذا ما يستدعي ملحوظات جانبية في القواميس تعالج الفروقات بين الكلمات المتشابهة بشكل مباشر
 كما يتضح في هذا المثال عن الكلمات ask و enquire و demand.
 
-![توضيح الفروقات بين الكلمات المتشابهة في قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-ask-synonyms.png){:width="600px"}
+![توضيح الفروقات بين الكلمات المتشابهة في قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-ask-synonyms.png){:width="600px"}
 
 #### الاعتناء بالتعابير والمصطلحات
 
@@ -191,7 +191,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 أجد من الممتع القراءة عن تاريخ هذا النوع من العبارات وكيف كسبت معانيها التي
 قد لا يكون واضحًا علاقتها بالكلمات المكونة للعبارة.[^7]
 
-![مثال عن شرح العبارات الاصطلاحية في قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-idioms.png){:width="600px"}
+![مثال عن شرح العبارات الاصطلاحية في قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-idioms.png){:width="600px"}
 
 الـphrasal verbs هي أفعال مركبة من عدة كلمات، تتكون عادة من فعل عادي وحرف جر أو ظرف يأتي بعد الفعل.
 من الأمثلة عنها الفعل look after الذي يأتي بمعنى الاعتناء،
@@ -201,7 +201,7 @@ uuid: 078b7863-defa-4dbd-aada-52dd94295cac
 خذ كمثال آخر عبارة "put up with" (التحمل) كما في جملة:
 I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 
-![مثال عن الأفعال المركبة في قاموس أكسفورد للمتعلمين](assets/images/oxford-learner-phrasal-verbs.png){:width="600px"}
+![مثال عن الأفعال المركبة في قاموس أكسفورد للمتعلمين](/assets/images/oxford-learner-phrasal-verbs.png){:width="600px"}
 
 ### [Longman Dictionary](https://www.ldoceonline.com/)
 
@@ -216,9 +216,9 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 عدا عن ذلك، القاموس فيه ميزات مفيدة يشترك فيها مع قواميس أخرى ذكرتها سابقًا،
 لذلك لن أكرر الحديث عنها هنا.
 
-![واجهة قاموس Longman](assets/images/longman-dictionary-1.png){:width="600px"}
+![واجهة قاموس Longman](/assets/images/longman-dictionary-1.png){:width="600px"}
 
-![شرح نحوي في قاموس Longman](assets/images/longman-dictionary-2.png){:width="600px"}
+![شرح نحوي في قاموس Longman](/assets/images/longman-dictionary-2.png){:width="600px"}
 
 ### [Collins Dictionary](https://www.collinsdictionary.com/)
 
@@ -227,25 +227,25 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 من الميزات البارزة في هذا القاموس هي مؤشرات لأهمية كل كلمة من ناحية شياع الاستخدام،
 ورسم بياني يوضح أيضا شياع الكلمة على مر العصور.
 
-![مؤشرات شياع الكلمات في قاموس Collins](assets/images/collins-dictionary-1.png){:width="600px"}
-![رسم بياني يوضح شياع الكلمات في قاموس Collins](assets/images/collins-dictionary-trends.png){:width="600px"}
+![مؤشرات شياع الكلمات في قاموس Collins](/assets/images/collins-dictionary-1.png){:width="600px"}
+![رسم بياني يوضح شياع الكلمات في قاموس Collins](/assets/images/collins-dictionary-trends.png){:width="600px"}
 
 كما أن هناك فيديوهات (وليس فقط أصوات) لطريقة نطق الكلمات الشائعة!
 أعتقد أن هذا مفيد لرؤية حركة الفم وأعضائه عند نطق الكلمات.
-![توضيح قاموس Collins لنطق الكلمات عبر الفيديوهات](assets/images/collins-dictionary-video-pronunciation.png){:width="600px"}
+![توضيح قاموس Collins لنطق الكلمات عبر الفيديوهات](/assets/images/collins-dictionary-video-pronunciation.png){:width="600px"}
 
 يوفر القاموس أيضا تسجيلات صوتية لكثير من الجمل مثل قاموس Longman،
 لكن بدا لي أن الأصوات مولدة آليًا وليست طبيعية.
 
 القاموس أيضا يميل إلى توفير أكبر قدر من المعلومات حول كل كلمة في صفحة واحدة، مثل
 المترادفات، والعبارات، والجمل طبعًا، وحتى ترجمات للغات كثيرة.
-![ترجمات للكلمات إلى لغات متعددة في قاموس Collins](assets/images/collins-dictionary-translations.png){:width="600px"}
+![ترجمات للكلمات إلى لغات متعددة في قاموس Collins](/assets/images/collins-dictionary-translations.png){:width="600px"}
 
 وبذكر الترجمات، فموقع القاموس أيضا يوفر [خدمة ترجمة](https://www.collinsdictionary.com/translator) تدعم لغات عديدة.
-![مترجم قاموس Collins](assets/images/collins-dictionary-translator.png){:width="600px"}
+![مترجم قاموس Collins](/assets/images/collins-dictionary-translator.png){:width="600px"}
 
 كما أن هناك [موسوعة لقواعد اللغة](https://grammar.collinsdictionary.com) وشروحات للفروق بين الكلمات المتشابهة.
-![مثال عن شرح قواعد اللغة في قاموس Collins](assets/images/collins-dictionary-grammar.png){:width="600px"}
+![مثال عن شرح قواعد اللغة في قاموس Collins](/assets/images/collins-dictionary-grammar.png){:width="600px"}
 
 ### [Cambridge Dictionary](https://dictionary.cambridge.org/)
 
@@ -256,9 +256,9 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 هناك أيضا [أداة ترجمة](https://dictionary.cambridge.org/translate/)
 و[موسوعة قواعد لغة](https://dictionary.cambridge.org/grammar/).
 
-![واجهة قاموس Cambridge](assets/images/cambridge-dictionary-1.png){:width="600px"}
-![مثال عن شرح قواعد اللغة في قاموس Cambridge](assets/images/cambridge-dictionary-grammar.png){:width="600px"}
-![مترجم قاموس Cambridge](assets/images/cambridge-dictionary-translator.png){:width="600px"}
+![واجهة قاموس Cambridge](/assets/images/cambridge-dictionary-1.png){:width="600px"}
+![مثال عن شرح قواعد اللغة في قاموس Cambridge](/assets/images/cambridge-dictionary-grammar.png){:width="600px"}
+![مترجم قاموس Cambridge](/assets/images/cambridge-dictionary-translator.png){:width="600px"}
 
 تغيرت واجهة القاموس عن آخر مرة استخدمته فيها. أنا أفضل الواجهة القديمة.
 عدا عن ذلك، ليس لدي ما أقوله أكثر عن هذا القاموس. شخصيًا لا أستخدمه كثيرًا
@@ -278,7 +278,7 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 لا أستخدم هذا القاموس كثيرًا، لكنه مفيد طبعًا، خصوصًا للكلمات النادرة لأنه
 من أكبر قواميس اللغة.
 
-![واجهة قاموس Merriam-Webster](assets/images/merriam-webster-dictionary-1.png){:width="600px"}
+![واجهة قاموس Merriam-Webster](/assets/images/merriam-webster-dictionary-1.png){:width="600px"}
 
 ### [Oxford Dictionary](https://www.lexico.com/)
 
@@ -286,7 +286,7 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 إذن لم أعرضه هنا؟ لأنه أولًا قاموس مرموق ويستحق الذكر طبعًا، ثانيًا لأنه قاموس ضخم سترى
 فائدته عاجلًا عندما تتقدم في رحلة تعلمك وتواجه كلمات لن تجدها في القواميس الموجهة للمتعلمين.
 
-![واجهة قاموس Oxford](assets/images/oxford-dictionary-1.png){:width="600px"}
+![واجهة قاموس Oxford](/assets/images/oxford-dictionary-1.png){:width="600px"}
 
 يضم القاموس كل ما تتوقعه من قاموس محترم، لكني لا أنصح باستخدامه كأول قاموس أحادي للمتعلم
 (نفس الشيء لقاموس Merriam-Webster أيضًا). لأنه كما قلت في قسم قاموس أكسفورد
@@ -300,7 +300,7 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 يعجبني في قواميس أكسفورد (هذا والخاص بالمتعلمين) الاهتمام بالإشارة إلى أين يشيع استخدام الكلمات
 وتعريفاتها المفردة والتعابير، بالإضافة إلى تصنيفات كـslang للعامية، و vulgar للغة البذيئة وما إلى ذلك.
 
-![مثال عن العبارات في قاموس Oxford](assets/images/oxford-dictionary-phrases.png){:width="600px"}
+![مثال عن العبارات في قاموس Oxford](/assets/images/oxford-dictionary-phrases.png){:width="600px"}
 
 ### [Dictionary.com](https://www.dictionary.com)
 
@@ -316,7 +316,7 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 في غوغل عن عبارة ما يأتي هذا القاموس في أول النتائج. والقاموس يعتني بالعبارات خصوصًا.
 
 فيه قسم منفصل لجمل تضم الكلمة المعنية في الأدب أيضا.
-![أمثلة من الأدب في القاموس الحر](assets/images/the-free-dictionary-classic-literature.png){:width="600px"}
+![أمثلة من الأدب في القاموس الحر](/assets/images/the-free-dictionary-classic-literature.png){:width="600px"}
 
 وبذكر الأدب، فللقاموس موقع شقيق يدعى [The Free Library](https://www.thefreelibrary.com/)
 وهو موسوعة للكتب المجانية ومصادر مكتوبة كثيرة ليست لها حقوق نشر.
@@ -329,8 +329,8 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 الموقع يعرض معنى كل كلمة تبحث عنها في كل لغة توجد فيها هذه الكلمة في صفحة واحدة.
 لذلك فهو ليس فقط قاموسًا مخصصًا بلغة واحدة، بل هو يوثق كل كلمة في أي لغة يمكن توثيقها.
 
-![واجهة قاموس Wiktionary](assets/images/wiktionary-1.png){:width="600px"}
-![قاموس آخر لواجهة Wiktionary لكلمة عربية](assets/images/wiktionary-2.png){:width="600px"}
+![واجهة قاموس Wiktionary](/assets/images/wiktionary-1.png){:width="600px"}
+![قاموس آخر لواجهة Wiktionary لكلمة عربية](/assets/images/wiktionary-2.png){:width="600px"}
 
 غني عن الذكر أيضًا أن الموقع متوفر في لغات أخرى مثل ويكيبيديا هي أيضا مشاريع تعاونية.
 هناك مشروع باللغة العربية له اسم لطيف: [ويكاموس](https://ar.wiktionary.org).
@@ -344,7 +344,7 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 
 وفيه بحر من الجمل المجمعة من مصادر كثيرة، منها تغريدات تويتر!
 
-![مثال عن جمل مأخوذة من تغريدات تويتر في قاموس Wordnik](assets/images/wordnik-dictionary-tweets.png){:width="600px"}
+![مثال عن جمل مأخوذة من تغريدات تويتر في قاموس Wordnik](/assets/images/wordnik-dictionary-tweets.png){:width="600px"}
 
 ### [Vocabulary.com](https://www.vocabulary.com/)
 
@@ -353,7 +353,7 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 يعجبني فيه أن تعريفاته للكلمات ليست تعريفات فعلًا، بل شرح بلغة عفوية مفهومة مع إعطاء
 أمثلة من الحياة اليومية.
 
-![مثال عن شرح موقع Vocabulary للمفردات](assets/images/vocabulary.com-1.png){:width="600px"}
+![مثال عن شرح موقع Vocabulary للمفردات](/assets/images/vocabulary.com-1.png){:width="600px"}
 
 الموقع أيضًا فيه تركيز على قوائم الكلمات المصنفة حسب الموضوع والسياق وما إلى ذلك.
 أكبر ميزة للموقع هي نظام أسئلة متنوعة (أسئلة عن تعاريف، وأسئلة عن أمثلة، إلخ) لتعلم المفردات.
@@ -362,8 +362,8 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 من واجبي أن أحذرك أن الموقع قد يسبب الإدمان؛ اسأل مجرب، فقد اعتدت على قضاء
 الساعات في هذا الموقع قبل سنوات عندما كان هوسي بتعلم الكلمات في أوجه.
 
-![مثال لأسئلة موقع Vocabulary من خلال الجمل](assets/images/vocabulary.com-quiz-1.png){:width="600px"}
-![مثال لأسئلة موقع Vocabulary من خلال المعاني](assets/images/vocabulary.com-quiz-2.png){:width="600px"}
+![مثال لأسئلة موقع Vocabulary من خلال الجمل](/assets/images/vocabulary.com-quiz-1.png){:width="600px"}
+![مثال لأسئلة موقع Vocabulary من خلال المعاني](/assets/images/vocabulary.com-quiz-2.png){:width="600px"}
 
 يدّعي الموقع أن طريقة تنظيمه وعرضه للأسئلة مبنية على العلم وكيفية تعلمك للمفردات ونسيانها.
 لا يوجد كلام واضح عن "الخوارزمية" التي يستخدمها الموقع، لكن أشك أنه يستخدم التكرار المتباعد،
@@ -386,7 +386,7 @@ I can no longer put up with him (لا أستطيع تحمله بعد الآن).
 مؤخرًا بدأت أزور هذا الموقع وأستمتع بتصفحه أكثر وأكثر، أحيانًا فقط لأؤكد نظريتي التي تقول
 إن كل كلمة وجدت على الإطلاق لها معنى بذيء أو متعلق بالجنس معروف فقط لدى كتّاب هذا الموقع.
 
-![مثال لتعريف كلمة في موقع Urban Dictionary](assets/images/urban-dictionary-1.png){:width="600px"}
+![مثال لتعريف كلمة في موقع Urban Dictionary](/assets/images/urban-dictionary-1.png){:width="600px"}
 
 ## قواميس تستحق الذكر
 

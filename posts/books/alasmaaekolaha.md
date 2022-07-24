@@ -179,11 +179,11 @@ redirect_from:
 
 طبق الكاتب تقنيات المذكرات السابق ذكرها وابتكر أنظمة عربية مفيدة جدًا ننقل أمثلة منها هنا:
 
-![نظام المشابك العربي للأرقام](../assets/images/ar-numbers-peg-system.png)
+![نظام المشابك العربي للأرقام](/assets/images/ar-numbers-peg-system.png)
 
-![النظام الصوتي العربي للأرقام](../assets/images/ar-numbers-major-system.png)
+![النظام الصوتي العربي للأرقام](/assets/images/ar-numbers-major-system.png)
 
-![نظام المشابك للأحرف العربية](../assets/images/ar-letters-peg-system.png)
+![نظام المشابك للأحرف العربية](/assets/images/ar-letters-peg-system.png)
 
 ## أفكار مشاريع
 
