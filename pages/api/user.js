@@ -7,9 +7,7 @@ export default withIronSessionApiRoute(userRoute, sessionOptions);
 
 async function userRoute(req, res) {
     if (req.session.user) {
-        res.status(200).json({
-            username: req.session.user.username,
-        })
+        res.status(200).json(req.session.user)
     } else {
         res.status(200).json(null)
     }
