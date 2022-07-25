@@ -60,7 +60,7 @@ const Post = ({ post }) => {
                             })}
                         </div>
                     </div>
-                </header >
+                </header>
                 <article>
                     {post.description &&
                         <div id="post-description">{post.description}</div>

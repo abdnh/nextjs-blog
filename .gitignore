@@ -11,6 +11,7 @@
 # next.js
 /.next/
 /out/
+.env*.local
 
 # production
 /build
@@ -30,3 +31,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# lowdb
+db.json
