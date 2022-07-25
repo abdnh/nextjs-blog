@@ -9,6 +9,7 @@ import { getAllPostIds, getPost } from '../../lib/posts';
 import useUser from "../../lib/useUser";
 
 import "easymde/dist/easymde.min.css";
+import { useRouter } from "next/router";
 
 export async function getStaticProps({ params }) {
     const post = await getPost(params.id);
@@ -31,6 +32,7 @@ export default function Edit({ post }) {
     const title = `تعديل: ${post.title}`;
     const [SimpleMdeReact, setSimpleMdeReact] = useState();
     const [updating, setUpdating] = useState(false);
+    const router = useRouter();
     // FIXME: also redirect or show error if not admin
     const { user } = useUser({
         redirectTo: "/login",
@@ -65,8 +67,7 @@ export default function Edit({ post }) {
         });
         const data = await response.json();
         if (response.ok) {
-            // ?
-            setValue(value);
+            router.push(`/posts/${post.id}`);
         } else {
             //TODO
         }
