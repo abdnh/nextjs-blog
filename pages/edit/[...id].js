@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useCallback } from "react";
 import { Suspense } from 'react'
 import Head from "next/head";
 import Link from "next/link";
@@ -74,6 +74,10 @@ export default function Edit({ post }) {
         setUpdating(false);
     }
 
+    const getCmInstanceCallback = useCallback((editor) => {
+        editor.setOption("rtlMoveVisually", true);
+    }, []);
+
     return (
         <Layout>
             <Head>
@@ -84,7 +88,7 @@ export default function Edit({ post }) {
             </header>
             <Suspense fallback="تحميل...">
                 {SimpleMdeReact &&
-                    <SimpleMdeReact value={value} onChange={onChange} options={editorOptions} />}
+                    <SimpleMdeReact value={value} onChange={onChange} options={editorOptions} getCodemirrorInstance={getCmInstanceCallback} />}
             </Suspense>
 
             <div className="update-controls">
@@ -100,28 +104,8 @@ export default function Edit({ post }) {
                 }
             </div>
 
-            {/* RTL styles adapted from https://github.com/imAbdelhadi/easymde-rtl */}
             <style global jsx>{
                 `
-                .editor-statusbar {
-                    text-align: left;
-                }
-                .editor-preview-full {
-                    direction: rtl;
-                    text-align: right;
-                    right: 0;
-                    left: 0;
-                }
-                .editor-preview *{
-                    clear: both !important;
-                }
-                pre code {
-                    text-align: left !important;
-                    float: left;
-                    direction: ltr !important;
-                    background: #eee;
-                    width: 100%;
-                }
                 .button {
                     cursor: pointer;
                     background-color: #ffffb9;
