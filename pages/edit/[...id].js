@@ -106,18 +106,6 @@ export default function Edit({ post }) {
 
             <style global jsx>{
                 `
-                .button {
-                    cursor: pointer;
-                    background-color: #ffffb9;
-                    color: black;
-                    min-width: 100px;
-                    border-radius: 10px;
-                    min-height: 35px;
-                    margin-bottom: 10px;
-                }
-                .button:hover {
-                    box-shadow: 4px 4px 7px #716262;
-                }
                 .update-controls {
                     display: flex;
                     align-items: baseline;

@@ -53,7 +53,7 @@ export default function Login(props) {
                     <label htmlFor="password">كلمة السر:</label>
                     <input type="password" name="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
                 </div>
-                <input type="submit" value="دخول"></input>
+                <button className="button" type="submit">دخول</button>
                 {errorMessage && <p className="error">{errorMessage}</p>}
             </form>
             <style global jsx>{`

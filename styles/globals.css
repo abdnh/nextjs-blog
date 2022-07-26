@@ -73,7 +73,8 @@ body {
 
 .title-container {
   display: flex;
-  align-items: first baseline;;
+  align-items: first baseline;
+  ;
 }
 
 h1, time, article {
@@ -243,4 +244,18 @@ time {
 
 .katex {
   direction: ltr;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #ffffb9;
+  color: black;
+  min-width: 100px;
+  border-radius: 10px;
+  min-height: 35px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  box-shadow: 4px 4px 7px #716262;
 }
