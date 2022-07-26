@@ -17,7 +17,7 @@ export default function Editor({ value, onChange, options }) {
             spellChecker: false,
             direction: "rtl",
         };
-    }, []);
+    }, [options]);
 
     const getCmInstanceCallback = useCallback((editor) => {
         editor.setOption("rtlMoveVisually", true);

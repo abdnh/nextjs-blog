@@ -8,7 +8,7 @@ export default function UserBar(props) {
         <>
             <div className="userbar">
                 {user && <>
-                    <a href="/logout" onClick={async (e) => {
+                    <a href="#" onClick={async (e) => {
                         e.preventDefault();
                         // TODO: clean this up and maybe catch errors
                         const response = await fetch("/api/logout", { method: 'POST' });
