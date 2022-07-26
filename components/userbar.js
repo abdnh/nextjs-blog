@@ -20,7 +20,12 @@ export default function UserBar(props) {
                         </svg></a>
                     <Link href="#">{user.username}</Link>
                 </>}
-                {!user && <Link href="/login">دخول</Link>}
+                {!user
+                &&
+                <>
+                <Link href="/login">دخول</Link>
+                <Link href="/signup">تسجيل</Link>
+                </>}
             </div>
             <style global jsx>{`
                 .userbar {

@@ -1,15 +1,13 @@
 import Head from "next/head";
-import Link from "next/link";
 import { useState } from "react";
 import useUser from "../lib/useUser";
 import Layout from "../components/layout";
 
 
-export default function Login(props) {
+export default function Signup(props) {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-    // TODO: redirect to previous page
     const { mutateUser } = useUser({
         redirectTo: '/',
         redirectIfFound: true,
@@ -22,28 +20,30 @@ export default function Login(props) {
             password: password,
         }
 
-        const response = await fetch("/api/login", {
+        const response = await fetch("/api/signup", {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body),
 
         });
-        const user = await response.json();
-        mutateUser(user);
-        if (!response.ok) {
-            setErrorMessage(response.statusText);
+        const data = await response.json();
+        if (response.ok) {
+            if (!data) {
+                setErrorMessage("فشل إنشاء حساب.");
+            }
+            mutateUser(data);
         }
-        if (!user) {
-            setErrorMessage("معلومات دخول غير صالحة.");
+        else {
+            setErrorMessage(data.message);
         }
     }
     return (
         <Layout>
             <Head>
-                <title>تسجيل الدخول</title>
+                <title>إنشاء حساب</title>
             </Head>
             <header className="post-header">
-                <h1>تسجيل الدخول</h1>
+                <h1>إنشاء حساب</h1>
             </header>
             <form onSubmit={handleSubmit} >
                 <div>
@@ -54,10 +54,9 @@ export default function Login(props) {
                     <label htmlFor="password">كلمة السر:</label>
                     <input type="password" name="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
                 </div>
-                <button className="button" type="submit">دخول</button>
+                <button className="button" type="submit">تسجيل</button>
                 {errorMessage && <p className="error">{errorMessage}</p>}
             </form>
-            <p>ليس لديك حساب؟ <Link href="/signup"><a>أنشئ حسابًا</a></Link></p>
             <style global jsx>{`
             form {
                 margin-block: 1em;
