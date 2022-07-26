@@ -21,11 +21,11 @@ export default function UserBar(props) {
                     <Link href="#">{user.username}</Link>
                 </>}
                 {!user
-                &&
-                <>
-                <Link href="/login">دخول</Link>
-                <Link href="/signup">تسجيل</Link>
-                </>}
+                    &&
+                    <>
+                        <Link href="/login">دخول</Link>
+                        <Link href="/signup">تسجيل</Link>
+                    </>}
             </div>
             <style global jsx>{`
                 .userbar {

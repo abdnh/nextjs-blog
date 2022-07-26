@@ -2,9 +2,11 @@ import Head from "next/head";
 import Link from "next/link";
 
 import Layout from "../../components/layout";
+import CommentsSection from "../../components/CommentsSection";
 import { SITE_NAME } from "../index";
 
 import { getAllPostIds, getPost } from '../../lib/posts';
+import { getPostComments } from "../../lib/comments";
 import { getTranslation } from "../../lib/translations";
 
 import useUser from "../../lib/useUser";
@@ -15,6 +17,7 @@ export async function getStaticProps({ params }) {
     return {
         props: {
             post,
+            comments: await getPostComments(post)
         },
     };
 }
@@ -28,7 +31,7 @@ export async function getStaticPaths() {
 }
 
 
-const Post = ({ post }) => {
+const Post = ({ post, comments }) => {
 
     // Use Unicode isolatation character to display text with mixed directionality properly
     // FIXME: The characters appear literally in the Windows taskbar
@@ -86,6 +89,7 @@ const Post = ({ post }) => {
                     {/* TODO: show TOC */}
                     <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
                 </article>
+                <CommentsSection post={post} comments={comments} />
             </div >
 
         </Layout >

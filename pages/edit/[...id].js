@@ -1,10 +1,9 @@
-import { useEffect, useState, useMemo, useCallback } from "react";
-import { Suspense } from 'react'
+import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import dynamic from 'next/dynamic';
 
 import Layout from "../../components/layout";
+import Editor from "../../components/editor";
 import { getAllPostIds, getPost } from '../../lib/posts';
 import useUser from "../../lib/useUser";
 
@@ -30,7 +29,6 @@ export async function getStaticPaths() {
 
 export default function Edit({ post }) {
     const title = `تعديل: ${post.title}`;
-    const [SimpleMdeReact, setSimpleMdeReact] = useState();
     const [updating, setUpdating] = useState(false);
     const router = useRouter();
     // FIXME: also redirect or show error if not admin
@@ -38,23 +36,10 @@ export default function Edit({ post }) {
         redirectTo: "/login",
     });
 
-    useEffect(() => {
-        setSimpleMdeReact(dynamic(() => import('react-simplemde-editor'), { ssr: false, suspense: true }));
-
-    }, []);
-
     const [value, setValue] = useState(post.content);
     const onChange = (value) => {
         setValue(value);
     };
-
-    const editorOptions = useMemo(() => {
-        return {
-            autofocus: true,
-            spellChecker: false,
-            direction: "rtl",
-        };
-    }, []);
 
     async function onSubmit(event) {
         setUpdating(true);
@@ -74,10 +59,6 @@ export default function Edit({ post }) {
         setUpdating(false);
     }
 
-    const getCmInstanceCallback = useCallback((editor) => {
-        editor.setOption("rtlMoveVisually", true);
-    }, []);
-
     return (
         <Layout>
             <Head>
@@ -86,11 +67,7 @@ export default function Edit({ post }) {
             <header className="post-header">
                 <h1>تعديل: <Link href={`/posts/${post.id}`}><a>{post.title}</a></Link></h1>
             </header>
-            <Suspense fallback="تحميل...">
-                {SimpleMdeReact &&
-                    <SimpleMdeReact value={value} onChange={onChange} options={editorOptions} getCodemirrorInstance={getCmInstanceCallback} />}
-            </Suspense>
-
+            <Editor value={value} options={{ autofocus: true }} onChange={onChange}></Editor>
             <div className="update-controls">
                 <button onClick={onSubmit} className="button">حفظ</button>
                 {updating &&
@@ -121,4 +98,3 @@ export default function Edit({ post }) {
         </Layout>
     )
 }
-

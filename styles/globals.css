@@ -259,3 +259,20 @@ time {
 .button:hover {
   box-shadow: 4px 4px 7px #716262;
 }
+
+#comments-section {
+  border-top: var(--section-border);
+}
+
+#new-comment-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#new-comment-section button {
+  max-width: 100px;
+}
+
+/* .comment {
+  border-bottom: var(--section-border);
+} */
