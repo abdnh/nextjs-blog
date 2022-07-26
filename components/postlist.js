@@ -11,7 +11,7 @@ const PostList = ({ posts }) => {
                     }
                     return (
                         <li key={post.id}><time dateTime={post.date}>{post.date}</time> » <Link
-                            href={`posts/${post.id}`}>{ title }</Link></li>
+                            href={`/posts/${post.id}`}>{ title }</Link></li>
                     )
                 })
             }

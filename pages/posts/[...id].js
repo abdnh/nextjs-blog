@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 import { SITE_NAME } from "../index";
 
 import { getAllPostIds, getPost } from '../../lib/posts';
+import { getTranslation } from "../../lib/translations";
 
 import useUser from "../../lib/useUser";
 
@@ -26,20 +27,6 @@ export async function getStaticPaths() {
     };
 }
 
-function getTagTranslation(tag) {
-    const translations = {
-        "books": "كتب",
-        "translation": "ترجمة",
-        "memory": "ذاكرة",
-        "anki": "Anki",
-        "computer": "حاسوب",
-        "algorithms": "خوارزميات",
-        "languages": "لغات",
-        "english": "لغة إنجليزية",
-        "reviews": "مراجعات"
-    };
-    return translations[tag] ? translations[tag] : tag;
-}
 
 const Post = ({ post }) => {
 
@@ -87,7 +74,7 @@ const Post = ({ post }) => {
                         <div id="tags">
                             {post.tags.map(tag => {
                                 // TODO: show translated tags
-                                return <a href={`/tag/${tag}`} key={tag}>{getTagTranslation(tag)}</a>
+                                return <a href={`/tag/${tag}`} key={tag}>{getTranslation(tag)}</a>
                             })}
                         </div>
                     </div>
