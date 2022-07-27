@@ -2,7 +2,7 @@ import { useState } from "react";
 import Editor from "./editor";
 import useUser from "../lib/useUser";
 
-export default function CommentsSection({ post, comments }) {
+export default function CommentsSection({ post, comments, onPostedComment }) {
 
     const { user } = useUser();
     const [newCommentText, setNewCommentText] = useState('');
@@ -22,7 +22,8 @@ export default function CommentsSection({ post, comments }) {
         });
         const data = await response.json();
         if (response.ok) {
-            //TODO: update comments
+            onPostedComment(data);
+            //TODO: clear editor and notify user that the comment was posted successfully
         }
         else {
             setErrorMessage("فشل نشر تعليقك");

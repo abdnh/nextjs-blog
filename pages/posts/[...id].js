@@ -10,6 +10,7 @@ import { getPostComments } from "../../lib/comments";
 import { getTranslation } from "../../lib/translations";
 
 import useUser from "../../lib/useUser";
+import { useState } from "react";
 
 
 export async function getStaticProps({ params }) {
@@ -31,13 +32,17 @@ export async function getStaticPaths() {
 }
 
 
-const Post = ({ post, comments }) => {
+const Post = ({ post, comments: initialComments }) => {
 
     // Use Unicode isolatation character to display text with mixed directionality properly
     // FIXME: The characters appear literally in the Windows taskbar
     const title = `\u{2068}${post.title} - ${SITE_NAME}\u{2069}`;
-
     const { user } = useUser();
+    const [comments, setComments] = useState(initialComments);
+
+    function onPostedComment(comment) {
+        setComments(comments.concat([comment]));
+    }
 
     return (
         <Layout>
@@ -89,7 +94,7 @@ const Post = ({ post, comments }) => {
                     {/* TODO: show TOC */}
                     <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
                 </article>
-                <CommentsSection post={post} comments={comments} />
+                <CommentsSection post={post} comments={comments} onPostedComment={onPostedComment} />
             </div >
 
         </Layout >
